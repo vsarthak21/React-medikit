@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.text-center {
+  color: rgb(9, 79, 145);
+}
+
+.row {
+  color: rgb(9, 79, 145);
+}
+
+[type="file"] {
+  position: absolute;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+input,
+[type="file"] + label {
+  border: 1px solid #eeeeee;
+  border-radius: 3px;
+  text-align: left;
+  padding: 5px;
+  width: 150px;
+  margin: 0;
+  left: 0;
+  position: relative;
+}
+[type="file"] + label {
+  text-align: center;
+  left: 7.35em;
+  background: #eeee;
+  border: none;
+  cursor: pointer;
+}
+
+.btn.btn-secondary.b1 {
+  margin-left: 3em;
+}
+
+.btn.btn-secondary.b2 {
+  margin-left: 8em;
+  margin-right: 0em;
+}
+
+.btn.btn-secondary.b3 {
+  margin-left: 44.5em;
+}
+
+.rx {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.jumbotron-fluid.bg {
+  padding: 15px 0;
+}
+h1 {
+  font-family: sans-serif;
+  margin-left: 1em;
+}
+
+.selectpicker {
+  border: 1px #222;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: #eeee;
+  padding: 7px;
+  width: 150px;
+  margin: 10px;
+  left: 10px;
+  position: relative;
+}
+
+.col-sm-3.c1 {
+  margin-left: 22px;
+}
+
+input.btn.btn-secondary.accept {
+  margin-top: 0.7em;
+  margin-left: 15em;
+}
+
+.btn.btn-secondary.accept:active :focus {
+  color: #eeeeee;
+  background-color: green !important;
+}
+
+.col-sm-7.table {
+  margin-left: 3em;
+}
+
+input[type="date"],
+input[name="name"],
+input[name="ref"] {
+  width: 30%;
+}
+
+input[name="name"] {
+  margin-left: 2em;
+}
+
+.btn.btn-secondary.submit {
+  margin-left: 34em;
+}
+
+.table.form td {
+  color: rgba(59, 67, 70, 0.925);
+}
+input[name="name"] {
+  width: 50%;
+}
